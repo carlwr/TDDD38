@@ -24,7 +24,7 @@ public:
     void pop_front();
     void pop_back ();
     
-    T&       operator[](int i);
+    T& operator[](int i);
     T const& operator[](int i) const;
     
     T&       at(int i);

@@ -17,7 +17,7 @@ T Queue<T, N>::dequeue()
     throw queue_error{"Cannot dequeue from empty queue"};
   }
 
-  T value {std::move(array[(head++) % N])};
+  T value {std::move(data[(head++) % N])};
   return value;
 }
 

@@ -1,3 +1,6 @@
+// To compile on linux with gcc: g++ Vector.cc main.cc
+// When compiling you must specify all your .cc files
+
 #include "Vector.h"
 
 #include <cmath>

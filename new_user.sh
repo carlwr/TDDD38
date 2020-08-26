@@ -7,5 +7,8 @@ mkdir $name
 cp various/new_session.sh $name/
 chmod +x $name/new_session.sh
 
+cp various/practice_exam.sh $name/
+chmod +x $name/practice_exam.sh
+
 echo "$name/"  | tee -a .gitignore
 
